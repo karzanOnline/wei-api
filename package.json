@@ -1,0 +1,24 @@
+{
+  "name": "@ali/wei-api",
+  "version": "0.0.3",
+  "repository": {
+      "type": "git",
+      "url": "git@gitlab.alibaba-inc.com:wei/wei-api.git"
+  },
+  "main": "",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+      "typescript": "next"
+  },
+  "husky": {
+      "hooks": {
+          "_comment": "This will remove husky from when we started migrating to use prettier",
+          "pre-commit": "npm uninstall husky"
+      }
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  }
+}
